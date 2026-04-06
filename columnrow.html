@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Frames Layout</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        /* Main container divided into 2 rows */
+        .row {
+            display: flex;
+            height: 50vh; /* each row takes half of screen */
+        }
+
+        /* Columns inside each row */
+        .column {
+            width: 50%; /* two equal columns */
+            height: 100%;
+        }
+
+        /* Different background colors */
+        .frame1 { background-color: lightcoral; }
+        .frame2 { background-color: lightblue; }
+        .frame3 { background-color: lightgreen; }
+        .frame4 { background-color: lightgoldenrodyellow; }
+    </style>
+</head>
+<body>
+
+    <!-- First Row -->
+    <div class="row">
+        <div class="column frame1"></div>
+        <div class="column frame2"></div>
+    </div>
+
+    <!-- Second Row -->
+    <div class="row">
+        <div class="column frame3"></div>
+        <div class="column frame4"></div>
+    </div>
+
+</body>
+</html>
